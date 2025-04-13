@@ -6,7 +6,7 @@ class GamingSmartphone(Smartphone):
         self.cooling_system = cooling_system
         self.refresh_rate = refresh_rate
 
-    def display_info(self): #Overriding the parent class method
+    def display_info(self): 
         super().display_info()
         print(f"Cooling System: {self.cooling_system}")
         print(f"Refresh Rate: {self.refresh_rate} Hz")
