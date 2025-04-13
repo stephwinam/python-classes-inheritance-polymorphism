@@ -1,4 +1,4 @@
-# python-oop-smartphone-animals
+# Python Classes, Inheritance and Polymorphism
 
 This project showcases Object-Oriented Programming (OOP) concepts in Python, including class creation, inheritance, and polymorphism, using examples of a Smartphone class and animal classes.
 
