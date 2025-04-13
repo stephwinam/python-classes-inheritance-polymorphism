@@ -23,8 +23,25 @@ class Smartphone:
 
     def take_photo(self):
         if self.is_on:
-            print(f"Taking a photo with {self.camera_resolution} camera.")
+            print(f"Taking a photo with {self.camera_resolution} MP camera.")
         else:
             print("Please turn on the phone first.")
+
+    def display_info(self):
+        print(f"Brand: {self.brand}")
+        print(f"Model: {self.model}")
+        print(f"Storage: {self.storage} GB")
+        print(f"Camera: {self.camera_resolution} MP")
+        print(f"Battery: {self.battery_capacity} mAh")
+        print(f"Is On: {self.is_on}")
+
+# Creating instances of the Smartphone class
+phone1 = Smartphone("Apple", "iPhone 13", 128, 12, 3240)
+phone2 = Smartphone("Samsung", "Galaxy S21", 256, 108, 4000)
+
+phone1.display_info()
+phone1.turn_on()
+phone1.take_photo()
+phone1.turn_off()
 
        
